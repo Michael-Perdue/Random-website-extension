@@ -7,12 +7,6 @@
   "icons": {
     "128": "favicon.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["https://*/*"],
-      "js": ["content.js"]
-    }
-  ],
   "web_accessible_resources": [
     {
       "resources": ["data.json"],
@@ -20,7 +14,7 @@
     }
   ],
   "background": {
-    "service_worker": "popup.js"
+    "service_worker": "content.js"
   },
-  "permissions": ["tabs","scripting","activeTab"]
+  "permissions": ["scripting"]
 }

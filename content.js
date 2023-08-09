@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", (event) => {
+self.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("btn").addEventListener("click", randomSite);
 });
 let urls = []
