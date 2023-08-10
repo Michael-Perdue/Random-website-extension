@@ -1,7 +1,7 @@
 {
   "name": "Random Websites",
-  "version": "1",
-  "description": "Base Level Extension",
+  "version": "1.0",
+  "description": "An extension to take you to random websites",
   "manifest_version": 3,
   "action": {"default_popup": "main.html"},
   "icons": {
