@@ -15,7 +15,7 @@ h2{
     color: white;
 }
 
-.glowButton {
+.Button {
     width: 220px;
     height: 50px;
     border: none;
@@ -28,7 +28,7 @@ h2{
     border-radius: 10px;
 }
 
-.glowButton:before {
+.Button:before {
     content: '';
     background: linear-gradient(45deg, #710193, #6A0DAD, #AF69EF);
     position: absolute;
@@ -45,19 +45,19 @@ h2{
     border-radius: 10px;
 }
 
-.glowButton:active {
+.Button:active {
     color: #000
 }
 
-.glowButton:active:after {
+.Button:active:after {
     background: transparent;
 }
 
-.glowButton:hover:before {
+.Button:hover:before {
     opacity: 1;
 }
 
-.glowButton:after {
+.Button:after {
     z-index: -1;
     content: '';
     position: absolute;
